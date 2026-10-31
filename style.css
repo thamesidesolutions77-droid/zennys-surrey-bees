@@ -914,3 +914,27 @@ main > .section:first-child {
     padding-top: 0;
     margin-top: -35px;
 }
+
+/* MOBILE HEADING SIZE FIX */
+@media (max-width: 650px) {
+
+    .hero h1 {
+        font-size: 3.6rem;
+        line-height: 1.02;
+    }
+
+    .section-heading h2 {
+        font-size: 3.3rem;
+        line-height: 1.05;
+    }
+
+    .location-heading h2 {
+        font-size: 2.7rem;
+        line-height: 1.08;
+    }
+
+    .hive-content h3 {
+        font-size: 2rem;
+        line-height: 1.15;
+    }
+}

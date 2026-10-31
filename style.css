@@ -807,3 +807,36 @@ footer {
         max-width: 800px;
     }
 }
+
+/* MOBILE NAVIGATION FIX */
+
+@media (max-width: 650px) {
+
+    .main-nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px 10px;
+        margin-top: 10px;
+    }
+
+    .main-nav a {
+        font-size: 0.78rem;
+        white-space: nowrap;
+    }
+}
+
+/* OFFICIAL ZENNY'S BEES LOGO */
+
+.brand-logo {
+    display: block;
+    width: 240px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 650px) {
+    .brand-logo {
+        width: 190px;
+    }
+}

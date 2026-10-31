@@ -938,3 +938,11 @@ main > .section:first-child {
         line-height: 1.15;
     }
 }
+
+/* Centre logo on mobile only */
+@media (max-width: 650px) {
+    .brand {
+      display: flex;
+      justify-content: center;
+    }
+  }

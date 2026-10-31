@@ -1041,3 +1041,36 @@ main > .section:first-child {
       margin-bottom: 0;
     }
   }
+
+ /* Desktop header layout */
+@media (min-width: 651px) {
+    .site-header {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+  
+    .brand {
+      flex: 0 0 auto;
+    }
+  
+    .main-nav {
+      position: absolute !important;
+      left: 50% !important;
+      right: auto !important;
+      transform: translateX(-50%) !important;
+      margin: 0 !important;
+      padding: 0 !important;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 38px;
+      width: max-content;
+    }
+  
+    .main-nav a {
+      font-size: 18px !important;
+      white-space: nowrap;
+    }
+  }

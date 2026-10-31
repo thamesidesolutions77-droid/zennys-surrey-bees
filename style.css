@@ -942,6 +942,7 @@ main > .section:first-child {
 /* Centre logo on mobile only */
 @media (max-width: 650px) {
     .brand {
+      width: 100%;
       display: flex;
       justify-content: center;
     }

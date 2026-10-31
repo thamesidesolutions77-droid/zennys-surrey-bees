@@ -837,6 +837,28 @@ footer {
 
 @media (max-width: 650px) {
     .brand-logo {
-        width: 190px;
+        width: 120px;
+    }
+}
+
+/* MOBILE HEADER FIX */
+@media (max-width: 650px) {
+
+    .brand-logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 14px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .main-nav a {
+        font-size: 0.82rem;
+        white-space: nowrap;
     }
 }

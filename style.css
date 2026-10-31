@@ -1,5 +1,5 @@
 /* ========================================
-   ZENNY'S SURREY BEES
+   ZENNY'S BEES
    Main Website Styles
    ======================================== */
 
@@ -861,4 +861,56 @@ footer {
         font-size: 0.82rem;
         white-space: nowrap;
     }
+}
+
+/* OUR HIVES LOCATION PAGE */
+
+.hive-locations {
+    padding-top: 20px;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.location-heading {
+    margin-bottom: 24px;
+}
+
+.location-heading h2 {
+    margin-bottom: 10px;
+}
+
+.location-column .hive-card {
+    width: 100%;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+    .hive-locations {
+        padding-top: 10px;
+    }
+
+    .location-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+}
+
+/* OUR HIVES PAGE - FINAL SPACING */
+
+main > .section:first-child {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.hive-locations {
+    padding-top: 0;
+    margin-top: -35px;
 }

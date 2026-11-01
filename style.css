@@ -1162,3 +1162,160 @@ main > .section:first-child {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Centre Journey introduction */
+.journey-intro {
+    text-align: center !important;
+}
+
+.journey-intro .section-heading {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+.journey-intro h1,
+.journey-intro .eyebrow,
+.journey-intro p {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* ========================================
+   JOURNEY - MONTHLY STORY UPDATES
+   ======================================== */
+
+   .journey-update {
+    max-width: 1100px;
+    margin: 45px auto 80px;
+    padding: 0 24px;
+  }
+  
+  .journey-update-heading {
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  
+  .journey-update-heading .eyebrow {
+    color: #9a7651;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .journey-update-heading h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0;
+  }
+  
+  .journey-main-photo {
+    display: block;
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    margin: 0 0 30px;
+  }
+  
+  .journey-story {
+    max-width: 780px;
+    margin: 0 auto 40px;
+  }
+  
+  .journey-story p {
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0 0 18px;
+  }
+  
+  .journey-photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 35px 0 55px;
+  }
+  
+  .journey-photo-grid img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .journey-video {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .journey-video .eyebrow {
+    color: #9a7651;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .video-placeholder {
+    min-height: 420px;
+    background: #e8eadc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  .journey-caption {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 12px;
+  }
+  
+  /* Journey updates - mobile */
+  @media (max-width: 650px) {
+  
+    .journey-update {
+      margin: 30px auto 55px;
+      padding: 0 20px;
+    }
+  
+    .journey-update-heading h2 {
+      font-size: 34px;
+    }
+  
+    .journey-main-photo {
+      max-height: none;
+    }
+  
+    .journey-story p {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+  
+    .journey-photo-grid {
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin: 30px 0 45px;
+    }
+  
+    .journey-photo-grid img {
+      height: auto;
+    }
+  
+    .video-placeholder {
+      min-height: 230px;
+    }
+  }
+
+  /* Journey update video */
+.journey-video-player {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin: 0 auto;
+  }

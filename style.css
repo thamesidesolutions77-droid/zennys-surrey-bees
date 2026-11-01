@@ -1120,3 +1120,45 @@ main > .section:first-child {
         color: #596254;
     }
 }
+
+/* Centre homepage Meet the Colonies heading */
+#hives .section-heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #hives .section-heading p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Centre Shop section heading */
+.shop-section .section-heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Centre Journey section heading */
+.journey-section .section-heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Centre Our Hives introduction */
+.hives-intro .section-heading {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hives-intro .section-heading h1,
+.hives-intro .section-heading .eyebrow,
+.hives-intro .section-heading p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

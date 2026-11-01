@@ -1329,3 +1329,145 @@ main > .section:first-child {
     object-fit: cover;
     margin: 0 auto;
   }
+
+  /* =========================
+   SHOP PAGE
+   ========================= */
+
+.shop-intro {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 80px 30px 70px;
+    text-align: center;
+  }
+  
+  .shop-intro h1 {
+    font-size: 64px;
+    line-height: 1.05;
+    margin: 15px 0 25px;
+  }
+  
+  .shop-intro > p:last-child {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  
+  
+  /* PRODUCTS */
+  
+  .shop-products {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 40px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 55px;
+  }
+  
+  .product-card {
+    text-align: left;
+  }
+  
+  .product-image {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-image.placeholder {
+    background: #e9eadf;
+    border: 1px solid #d8d8cc;
+  }
+  
+  .product-image span {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+  
+  .product-card h2 {
+    font-size: 38px;
+    margin: 10px 0 15px;
+  }
+  
+  .product-card > p:not(.eyebrow) {
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  .coming-soon {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #b58735;
+  }
+  
+  
+  /* SHOP STORY */
+  
+  .shop-story {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 90px 30px 110px;
+    text-align: center;
+  }
+  
+  .shop-story h2 {
+    font-size: 48px;
+    margin: 15px 0 25px;
+  }
+  
+  .shop-story > p:not(.eyebrow) {
+    max-width: 650px;
+    margin: 0 auto 18px;
+    line-height: 1.7;
+  }
+  
+  .shop-story .button {
+    display: inline-block;
+    margin-top: 25px;
+  }
+  
+  
+  /* SHOP MOBILE */
+  
+  @media (max-width: 650px) {
+  
+    .shop-intro {
+      padding: 60px 25px 55px;
+    }
+  
+    .shop-intro h1 {
+      font-size: 48px;
+    }
+  
+    .shop-products {
+      display: block;
+      padding: 10px 35px 70px;
+    }
+  
+    .product-card {
+      margin-bottom: 75px;
+    }
+  
+    .product-card h2 {
+      font-size: 36px;
+    }
+  
+    .product-image {
+      margin-bottom: 25px;
+    }
+  
+    .shop-story {
+      padding: 65px 30px 80px;
+    }
+  
+    .shop-story h2 {
+      font-size: 42px;
+    }
+  }

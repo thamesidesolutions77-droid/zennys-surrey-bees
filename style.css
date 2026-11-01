@@ -1471,3 +1471,28 @@ main > .section:first-child {
       font-size: 42px;
     }
   }
+
+  /* SHOP - THREE PRODUCT CARDS */
+
+.shop-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.product-card {
+    width: 100%;
+}
+
+@media (max-width: 650px) {
+    .shop-products {
+        display: block;
+        padding: 10px 35px 70px;
+    }
+
+    .product-card {
+        margin-bottom: 75px;
+    }
+}
